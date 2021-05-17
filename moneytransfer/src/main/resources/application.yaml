@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/demo
+    username: demo
+    password: admin
+    driver-class-name: org.postgresql.Driver
+  main:
+    banner-mode: off
+  jpa:
+    hibernate:
+      ddl-auto: create
+server:
+  port: 8081
+
